@@ -21,6 +21,7 @@ public class TestForGit {
         $("#email").shouldHave(text ("1IT@qa.ru"));
         $("#currentAddress", 1).shouldHave(text ("Saratov"));
         $("#permanentAddress", 1).shouldHave(text ("LA"));
+        System.out.println("Hello, World!");
 
     }
 }
